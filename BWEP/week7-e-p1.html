@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week7-e-p1</title>
+
+	<style type="text/css">
+		
+		h3 {
+			text-align: center;
+		}
+
+		form {
+			margin: auto;
+			width: 640px;
+		}
+
+		.name1 {
+			width: 400px;
+			display: inline-block;
+		}
+
+		.name2 {
+			text-align: center;
+		}
+
+		form > div {
+			border: 1px solid;
+			padding: 10px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+<h3>Registration for Covid-19 Volunteer - ® C19-Team</h3>
+
+<form method="" action="">
+		
+	<div>
+		<div class="name1">Fullname</div>
+		<input type="text" name="name" pattern="[A-z]{}" maxlength="30">
+	</div>
+			
+	<div>
+		<div class="name1">Email</div>
+		<input type="email" name="email">
+	</div>
+		
+	<div>
+		<div class="name1">Date you can start	</div>
+		<input type="date" name="date">
+	</div>
+		
+	<div>
+		<div class="name1">Morning shift preference</div>
+		<input type="time" name="timeAM">
+	</div>
+		
+	<div>
+		<div class="name1">Evening shift perference</div>
+		<input type="time" name="timePM">
+	</div>
+		
+	<div>
+		<div class="name1">How many hours you can work? In multiple of 3</div>
+		<input type="number" name="number" step="3" min="3" max="9">
+	</div>
+		
+	<div>
+		<div class="name1">Distance you willing to commute to volunteer center?</div>
+		1<input type="range" name="range" min="1" max="15" value="3">15
+	</div>
+		
+	<div>
+		<div class="name1">You currency perference for payment?</div>
+		<input type="radio" name="currency" id="&pound"><label>&pound;</label>
+		<input type="radio" name="currency" id="&yen"><label>&yen;</label>
+		<input type="radio" name="currency" id="&euro"><label>&euro;</label>
+	</div>
+		
+	<div class="name2">
+		<textarea rows="6" cols="40" placeholder="Type your home address"></textarea>
+	</div>
+		
+	<div class="name2">
+		<strike>You will be given daily meals</strike>
+	</div>
+		
+	<div class="name2">
+		<input type="checkbox" name="terms&cons" checked disabled>I agree to all terms and conditions
+	</div>
+		
+	<div class="name2">
+		Prove you are not robot: 10 &lt 20?<input type="checkbox" name="robot">
+	</div>
+	
+	<div class="name2">
+		<input type="submit" name="submit" value="Volunteer now!">
+	</div>
+		
+	<div class="name2">
+		<input type="reset" name="reset" value="Start over">
+	</div>
+		
+	<div class="name2">
+		For more informaton, visit MOH <a href="https://www.moh.gov.bn/Pages/Home.aspx" target="_blank">website</a>
+	</div>
+		
+</form>
+
+
+</body>
+</html>
